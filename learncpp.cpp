@@ -45,7 +45,9 @@ int main()
 	std::cout << std::endl;
 	std::cout << "-----------------------------------------------" <<std::endl;
 
-	char *char_ptr = "Who are you?";
+	int integer(3);
 
-	
+	std::cout << "Integer is:" << integer << "\n";
+
+
 }	
