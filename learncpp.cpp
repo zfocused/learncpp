@@ -39,6 +39,7 @@ int main()
 	std::cout << std::endl;
 	*/
 	
+	/*
 	std::string test_string = "This is another test for string iteration";
 	for (auto sitr2 = test_string.begin(); sitr2 != test_string.end(); ++sitr2)
 		std::cout << *sitr2;
@@ -49,5 +50,31 @@ int main()
 
 	std::cout << "Integer is:" << integer << "\n";
 
+	std::cout <<"-------------------------------------------------" << std::endl;
+	*/ 
+	
+	/*
+	const char ca[] = {'h', 'e', 'l', 'l', 'o'};
+	const char *cp = ca;
+	while (*cp) {
+		std::cout << *cp << ":";
+		++cp;
+	}
+	std::cout << std::endl;
+	*/
+	
+	/*	
+	std::string test_string = "This is a test string";
+	
+	std::string *string_ptr = &test_string;
+	
+	std::cout << "The address of the string pointer is: " << string_ptr << std::endl;
+	std::cout << "The content of the string pointer is: " << *string_ptr << std::endl;	
+	*/
 
-}	
+	std::string test = "This is yet anotehr test string";
+
+	std::cout << test.size() << "\n";
+
+
+}
