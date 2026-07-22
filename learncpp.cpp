@@ -72,9 +72,41 @@ int main()
 	std::cout << "The content of the string pointer is: " << *string_ptr << std::endl;	
 	*/
 
+	/*
+
 	std::string test = "This is yet anotehr test string";
 
 	std::cout << test.size() << "\n";
+	*/
+
+	/*
+	std::string string_array[] = {"Hello", "wonderful", "world!"};
+
+	for  (auto itr: string_array) {
+		std::cout << itr << " ";
+	}
+
+	std::cout << std::endl;
+
+	std::cout << "=====================================================\n";
+	*/
+	
+	std::vector<std::string> vec;  vec = {"Hello", "wonderful", "world!"};
+
+	/*
+	for  (std::vector<std::string>::iterator itr = vec.begin(); itr != vec.end(); ++itr) {
+		std::cout << *itr << " ";
+	}
+
+	std::cout << std::endl;
+	*/
+
+	for  (auto itr = vec.begin(); itr != vec.end(); ++itr) {
+		std::cout << *itr << " ";
+	}
+
+	std::cout << std::endl;
+	
 
 
 }
