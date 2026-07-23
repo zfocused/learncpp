@@ -91,9 +91,8 @@ int main()
 	std::cout << "=====================================================\n";
 	*/
 	
-	std::vector<std::string> vec;  vec = {"Hello", "wonderful", "world!"};
-
 	/*
+	std::vector<std::string> vec;  vec = {"Hello", "wonderful", "world!"};
 	for  (std::vector<std::string>::iterator itr = vec.begin(); itr != vec.end(); ++itr) {
 		std::cout << *itr << " ";
 	}
@@ -101,12 +100,42 @@ int main()
 	std::cout << std::endl;
 	*/
 
+	/*
+
+	
+	std::vector<std::string> vec;  vec = {"Hello", "wonderful", "world!"};
+
 	for  (auto itr = vec.begin(); itr != vec.end(); ++itr) {
 		std::cout << *itr << " ";
 	}
 
 	std::cout << std::endl;
 	
+	*/
+
+	/* 
+	std::vector<std::string> vec;
+	
+	vec = {"Hello", "wonderful", "world!"};
+
+	for (auto &itr: vec) {
+	
+	std::cout << itr << " ";
+	}
+
+	std::cout << std::endl;
+	
+	std::cout << "++++++++++++++++++++++++++++++++++++++" <<std::endl;
+
+	*/
+	std::vector<std::string> vec = {"Hello", "wonderful", "world!"}	;
+
+	for (auto &itr: vec) {
+	
+	std::cout << itr << " ";
+	}
+
+	std::cout << std::endl;
 
 
 }
