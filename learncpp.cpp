@@ -128,6 +128,8 @@ int main()
 	std::cout << "++++++++++++++++++++++++++++++++++++++" <<std::endl;
 
 	*/
+
+	/*
 	std::vector<std::string> vec = {"Hello", "wonderful", "world!"}	;
 
 	for (auto &itr: vec) {
@@ -136,6 +138,8 @@ int main()
 	}
 
 	std::cout << std::endl;
+	*/
 
+	std::cerr << "This is a test" << std::endl;
 
 }
