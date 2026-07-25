@@ -139,7 +139,31 @@ int main()
 
 	std::cout << std::endl;
 	*/
-
+/*
 	std::cerr << "This is a test" << std::endl;
+*/
 
+	struct Person {
+		Person (std::string name, std::string id_no, std::string occupation):
+		name(name),
+		id_no(id_no),
+		occupation(occupation) {};
+
+		std::string name;
+		std::string id_no;
+		std::string occupation;
+
+		void show(){
+			std::cout << "The person's name is: " << name << ", " << "ID is: " << id_no << ", " << "Occupation is: " << occupation << std::endl;
+		}
+	};
+
+	Person male1("John", "22020502", "Painter");
+
+	/*
+	std::cout << "The person's name is: " << male1.name << ", " << " ID is: " << male1.id_no << ", " << "Occupation is: " << male1.occupation << std::endl;
+	*/
+
+	std::cout << "The class size is: " << sizeof(male1) << std::endl;
+	male1.show();
 }
