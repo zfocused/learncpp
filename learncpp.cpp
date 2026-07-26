@@ -166,4 +166,16 @@ int main()
 
 	std::cout << "The class size is: " << sizeof(male1) << std::endl;
 	male1.show();
+
+	struct X {
+		X(int i, int j) : base(i), rem(base % j) {}
+		int rem, base;
+		//int base, rem;
+	};
+
+	X x1(10, 5);
+
+	std::cout << x1.base << " " << x1.rem << std::endl;
+
+
 }
