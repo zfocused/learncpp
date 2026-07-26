@@ -177,5 +177,7 @@ int main()
 
 	std::cout << x1.base << " " << x1.rem << std::endl;
 
+	std::cout << "This is a test" << std::endl << std::flush;
+
 
 }
