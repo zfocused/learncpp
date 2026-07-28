@@ -2,6 +2,10 @@
 #include <vector>
 #include <string>
 
+int add(int, int) {
+	return 0;
+}
+
 int main()
 {
 	/*
@@ -143,6 +147,8 @@ int main()
 	std::cerr << "This is a test" << std::endl;
 */
 
+/*
+
 	struct Person {
 		Person (std::string name, std::string id_no, std::string occupation):
 		name(name),
@@ -153,7 +159,7 @@ int main()
 		std::string id_no;
 		std::string occupation;
 
-		void show(){
+		void show() {
 			std::cout << "The person's name is: " << name << ", " << "ID is: " << id_no << ", " << "Occupation is: " << occupation << std::endl;
 		}
 	};
@@ -164,6 +170,8 @@ int main()
 	std::cout << "The person's name is: " << male1.name << ", " << " ID is: " << male1.id_no << ", " << "Occupation is: " << male1.occupation << std::endl;
 	*/
 
+	
+/*
 	std::cout << "The class size is: " << sizeof(male1) << std::endl;
 	male1.show();
 
@@ -178,6 +186,8 @@ int main()
 	std::cout << x1.base << " " << x1.rem << std::endl;
 
 	std::cout << "This is a test" << std::endl << std::flush;
+
+*/
 
 
 }
